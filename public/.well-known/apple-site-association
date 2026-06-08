@@ -1,0 +1,25 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAM_ID.com.fitflow.demo",
+        "paths": [
+          "/*",
+          "/programs/*",
+          "/hacks/*"
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "TEAM_ID.com.fitflow.demo"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "TEAM_ID.com.fitflow.demo"
+    ]
+  }
+}

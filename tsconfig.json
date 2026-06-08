@@ -1,0 +1,26 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "module": "esnext",
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "@utils/*": ["./utils/*"],
+      "@store/*": ["./store/*"],
+      "@assets/*": ["./assets/*"],
+      "@icons/*": ["./assets/icons/*"],
+      "@fonts/*": ["./assets/fonts/*"],
+      "@images/*": ["./assets/images/*"],
+      "@styles/*": ["./assets/styles/*"],
+      "@lottie/*": ["./assets/lottie/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "utils/loaders/i18n.js"
+  ]
+}

@@ -1,0 +1,15 @@
+node_modules
+.expo
+dist
+web-build
+android
+ios
+package-lock.json
+patches
+assets/fonts
+assets/lottie
+assets/sounds
+*.lottie
+*.p12
+*.pem
+*.keystore

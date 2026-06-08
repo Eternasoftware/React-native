@@ -1,0 +1,33 @@
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--text-inverse) var(--transparent);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--text-inverse);
+  border-radius: 100px;
+  border: 2px solid var(--surface-card);
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: var(--transparent);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track-piece {
+  background-color: var(--transparent);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-horizontal {
+  height: 8px;
+}

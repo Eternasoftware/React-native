@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+expo-env.d.ts
+web-build/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Secrets & certificates
+*.jks
+*.p8
+*.p12
+*.pem
+*.keystore
+*.key
+*.mobileprovision
+secrets/*
+!secrets/.gitkeep
+
+# Native projects (prebuild)
+/android
+/ios
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs & misc
+npm-debug.*
+*.orig.*
+pm2.config*
+

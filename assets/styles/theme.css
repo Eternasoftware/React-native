@@ -1,0 +1,10 @@
+:root {
+  --palette-neutral-mint: #f2faf2;
+  --palette-neutral-gray850: #3c3441;
+  --palette-neutral-white: #ffffff;
+
+  --surface-input: var(--palette-neutral-mint);
+  --surface-card: var(--palette-neutral-gray850);
+  --text-inverse: var(--palette-neutral-white);
+  --transparent: #ffffff00;
+}
